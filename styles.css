@@ -1,3 +1,15 @@
-@charset "utf-8";
-/* CSS Document */
+body {
+    font-family: Arial, sans-serif; /* Optional: Set a clean font */
+}
 
+.park img {
+    width: 15%;  /* Set image width to 15% of page width */
+    height: auto; /* Keep aspect ratio */
+    float: left;  /* Float image left */
+    margin-right: 10px; /* Add space between image and text */
+}
+
+.park {
+    clear: both; /* Clear float so each section starts on a new line */
+    padding: 15px 0; /* Add space between sections */
+}
